@@ -30,9 +30,9 @@ git config --list --show-origin
 
 ## Посмотреть настройку отдельной записи:
 <pre>
-git config --local  user.name
+git config --local user.name
 git config --global user.name
-git config --system  user.name
+git config --system user.name
 </pre>
 
 
