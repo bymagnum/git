@@ -20,3 +20,10 @@ git commit -m'removed gitignored files'
 <pre>
 rm -f ./.git/index.lock
 </pre>
+
+
+## посмотреть происхождение записи конфигурации:
+Порядок предпочтения таков _local_ > _global_> > _system_
+<pre>
+git config --list --show-origin
+</pre>
