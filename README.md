@@ -27,3 +27,21 @@ rm -f ./.git/index.lock
 <pre>
 git config --list --show-origin
 </pre>
+
+## Посмотреть настройку отдельной записи:
+<pre>
+git config --local  user.name
+git config --global user.name
+git config --system  user.name
+</pre>
+
+
+
+
+
+
+
+
+
+
+
